@@ -1,0 +1,447 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    background-color: rgb(1, 1, 33);
+}
+                        /* ==== nav bar setup ==== */
+nav{
+    width: 100%;
+    height: 4rem;
+    background-color: rgb(4, 1, 27);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    gap: 3rem;
+    list-style: none;
+}
+
+nav .left{
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+nav ul li a{
+    color: #fff;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: aliceblue;
+    font-size: 1.4rem;
+}
+
+nav ul li a:visited{
+    color: #e2dbdb;
+    font-size: 1.4rem;
+}
+            /* ---------- hero secotion design ---------- */
+.hero-sec{
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5rem;
+}
+
+.left-side{
+    width: 35rem;
+    height: auto;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #e2dbdb;
+    margin: 7rem 0;
+}
+
+.left-side span{
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: rgb(33, 227, 224);
+}
+
+.left-side > .name{        /* it is not working*/
+    padding-bottom: 2rem;  
+}
+
+.resu button{
+    padding: 0.7rem;
+    margin-top: 1.5rem;
+    background-color: rgb(65, 167, 165);
+    color: rgb(1, 1, 33);
+    font-weight: bold;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 2rem;
+}
+
+.git-btn{
+    width: 8rem;
+    margin-left: 0.5rem;
+}
+
+.git-btn a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.right-side img{
+    height: 28rem;
+    aspect-ratio: 1;
+    border: solid 0.8rem rgb(33, 227, 224);
+    border-radius: 50%;
+}
+/* ---------- hero secotion design End ---------- */
+
+/*  --------- About me  --------- */
+#about{
+    height: 85vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about-photo img{
+    height: 25rem;
+    aspect-ratio: 1;
+    filter: drop-shadow(0 0 0.75rem rgb(196, 150, 159));
+    border: 0.5rem solid rgb(33, 227, 224);
+    border-radius: 50%;
+}
+
+#about .info{
+    width: 50rem;
+    height: auto;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+}
+
+h2{
+    padding-bottom: 1rem;
+}
+
+h2 span{
+    color: rgb(33, 227, 224);
+}
+
+/*  --------- About me End  --------- */
+
+
+/* ========== skill section ========== */
+#skills{
+    height: 100vh;
+    
+}
+#skills h2{
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+
+}
+
+.icons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 7rem;
+    font-size: 1.5rem;
+}
+
+.icons-bg{
+    background-color: rgba(255, 255, 255, 0.1);
+    height: 12rem;
+    width: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.7rem;
+}
+
+.icons img{
+    height: 6rem;
+    aspect-ratio: 1.1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+/* === hover effect === */
+.javascript:hover{
+    background-color: rgba(240, 255, 255, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 12rem;
+    width: 10rem;
+    border-radius: 0.7rem;
+}
+
+.html:hover{
+    background-color: rgba(240, 255, 255, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 12rem;
+    width: 10rem;
+    border-radius: 0.7rem;
+}
+
+.css:hover{
+    background-color: rgba(240, 255, 255, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 12rem;
+    width: 10rem;
+    border-radius: 0.7rem;
+}
+
+.python:hover{
+    background-color: rgba(240, 255, 255, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 12rem;
+    width: 10rem;
+    border-radius: 0.7rem;
+}
+
+.mysql:hover{
+    background-color: rgba(240, 255, 255, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 12rem;
+    width: 10rem;
+    border-radius: 0.7rem;
+}
+
+.office:hover{
+    background-color: rgba(240, 255, 255, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 12rem;
+    width: 10rem;
+    border-radius: 0.7rem;
+}
+/* ========== skill section End========== */
+
+/* ========== Project section ========== */
+
+#projects h2{
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.proj-info{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+}
+
+.proj-img{
+    width: 20rem;
+    height: 30rem;
+    border-radius: 1rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.proj-img h3{
+    padding-bottom: 1rem;
+}
+
+.proj-img img{
+    width: 15rem;
+    height: 20rem;
+    border-radius: 1rem;
+}
+
+.proj-img img:hover{
+    width: 16rem;
+    height: 21rem;
+}
+
+.proj-img a{
+    text-decoration: none;
+    
+}
+
+.proj-btn{
+    display: inline;
+    padding: 10px;
+    font-size: 1rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    border: none;
+    border-radius: 1.4rem;
+    background-color: rgb(11, 168, 165);
+    color: rgb(1, 1, 33);
+    font-weight: bold;
+}
+
+
+/* ========== Project section End ========== */
+
+
+/* ========== contact section ========== */
+footer{
+    height: 10rem;
+    background-color: rgb(4, 1, 27);
+    margin-top: 2rem;
+}
+
+#contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact h2{
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.phone{
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+}
+
+.phone p{
+    font-size: 1.4rem;
+    padding-top: 0.2rem;
+}
+
+.phone p a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.phone p a:hover{
+    text-decoration: underline;
+}
+
+/* ========== contact section End ========== */
+
+/* media query for make responsive website */
+
+@media only screen and (max-width: 927px) {
+
+    nav{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav ul{
+        width: auto;
+        gap: 2rem;
+    }
+
+    nav ul li a{
+        font-size: 1rem;
+    }
+
+    .hero-sec{
+        height: auto;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .right-side img{
+        height: 22rem;
+    }
+
+    .left-side{
+        width: auto;
+    }
+
+    #about{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .about-photo img{
+        height: 20rem;
+        margin-bottom: 2rem;
+    }
+    #about .info{
+        width: auto;
+        height: auto;
+        font-size: 1.5rem;
+        letter-spacing: 2px;
+    }
+
+    #skills{
+        height: auto;
+        margin-top: 45px;
+        margin-bottom: 40px;
+    }
+
+    .icons{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 2rem;
+        font-size: 1.5rem;
+    }
+
+    .icons-bg{
+        margin-bottom: 1.5rem;
+    }
+
+    .proj-img{
+        margin-bottom: 1.5rem;
+    }
+
+    footer{
+        height: auto;
+    }
+
+    .phone{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+}
